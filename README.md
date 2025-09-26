@@ -135,12 +135,12 @@ Calculates shortest paths using Dijkstra's algorithm.
 **Response:**
 ```json
 {
-  distances: { '1': 0, '2': 8, '3': 5 },
-  prev: { '1': null, '2': '3', '3': '1' },
-  allPaths: [
-    { from: '1', to: '1', path: [Array] },
-    { from: '1', to: '2', path: [Array] },
-    { from: '1', to: '3', path: [Array] }
+  "distances": { "1": 0, "2": 8, "3": 5 },
+  "prev": { "1": null, "2": 3, "3": 1 },
+  "allPaths": [
+    { "from": 1, "to": 1, "path": "[Array]" },
+    { "from": 1, "to": 2, "path": "[Array]" },
+    { "from": 1, "to": 3, "path": "[Array]" }
   ]
 }
 ```
@@ -197,3 +197,4 @@ If this project helped you learn or build something awesome, please consider giv
 ---
 
 **Made with ❤️ for the algorithms community**
+
